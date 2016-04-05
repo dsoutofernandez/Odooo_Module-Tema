@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<openerp>
+  <data>
+    <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
+    <xpath expr="link[last()]" position="after">
+        <link href="/theme_default_1/static/less/style.less" rel="stylesheet" type="text/less"/>
+    </xpath>
+    </template>
+  </data>
+</openerp>
