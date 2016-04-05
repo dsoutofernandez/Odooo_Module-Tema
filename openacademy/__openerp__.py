@@ -1,17 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "openacademy",
+    'name': "openacademy1",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Este es el modulo para el examen""",
 
     'description': """
-        Long description of module's purpose
+        Modulo y tema Odoo examen
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "dsoutofernandez",
+    'website': "http://www.danielcastelao.org",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
@@ -27,6 +26,7 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
